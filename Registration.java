@@ -63,7 +63,7 @@ public class Registration {
 		Scanner scan = new Scanner(System.in);
 		String read = "^[0-9]{2}[ ][0-9]{10}$";
 		
-		System.out.println("Enter the Email:");
+		System.out.println("Enter the Mobile Number:");
 		String Number = scan.next();
 		String text = Number;
 		
@@ -81,7 +81,7 @@ public class Registration {
 		Scanner scan = new Scanner(System.in);
 		String read = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$";
 		
-		System.out.println("Enter the Email:");
+		System.out.println("Enter the Password:");
 		String Password = scan.next();
 		String text = Password;
 		
